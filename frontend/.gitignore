@@ -1,0 +1,35 @@
+# Node
+node_modules/
+
+# Production build
+build/
+dist/
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.vite/
+
+# Coverage / test
+coverage/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc lock files (do NOT ignore package-lock.json or yarn.lock if you want deterministic installs)
+
+yarn.lock
+pnpm-lock.yaml
+.env.*.local
+.env.local
+.env
+*.env

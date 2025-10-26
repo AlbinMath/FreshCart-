@@ -1,0 +1,120 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "FreshCart" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e9]: FreshCart
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Welcome, Albin Mathew
+          - generic [ref=e14]: Customer
+        - generic [ref=e15]:
+          - link "Cart" [ref=e16] [cursor=pointer]:
+            - /url: /cart
+          - link "My Orders" [ref=e17] [cursor=pointer]:
+            - /url: /customer
+          - link "Profile" [ref=e18] [cursor=pointer]:
+            - /url: /profile
+          - button "Logout" [ref=e19] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - button "Continue Shopping" [ref=e25] [cursor=pointer]:
+          - img [ref=e26]
+          - text: Continue Shopping
+        - heading "Your Cart (16 items)" [level=1] [ref=e28]:
+          - img [ref=e29]
+          - text: Your Cart (16 items)
+        - button "Clear Cart" [ref=e32] [cursor=pointer]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e36]:
+            - img "Lamb Chops" [ref=e38]
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - generic [ref=e41]:
+                  - heading "Lamb Chops" [level=3] [ref=e42]
+                  - paragraph [ref=e43]: meat
+                - button [ref=e44] [cursor=pointer]:
+                  - img [ref=e45]
+              - generic [ref=e48]:
+                - generic [ref=e49]:
+                  - generic [ref=e50]: ₹850.00
+                  - generic [ref=e51]: ₹1,020.00
+                - generic [ref=e52]:
+                  - button [ref=e53] [cursor=pointer]:
+                    - img [ref=e54]
+                  - generic [ref=e55]: "15"
+                  - button [ref=e56] [cursor=pointer]:
+                    - img [ref=e57]
+                - generic [ref=e58]:
+                  - generic [ref=e59]: ₹12,750.00
+                  - generic [ref=e60]: (₹850.00 each)
+          - generic [ref=e62]:
+            - img "Chicken Breast" [ref=e64]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - heading "Chicken Breast" [level=3] [ref=e68]
+                  - paragraph [ref=e69]: meat
+                - button [ref=e70] [cursor=pointer]:
+                  - img [ref=e71]
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - generic [ref=e76]: ₹250.00
+                  - generic [ref=e77]: ₹300.00
+                - generic [ref=e78]:
+                  - button [ref=e79] [cursor=pointer]:
+                    - img [ref=e80]
+                  - generic [ref=e81]: "1"
+                  - button [ref=e82] [cursor=pointer]:
+                    - img [ref=e83]
+                - generic [ref=e85]: ₹250.00
+        - generic [ref=e87]:
+          - heading "Order Summary" [level=2] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: Subtotal (16 items)
+              - generic [ref=e92]: ₹13,000.00
+            - generic [ref=e93]:
+              - generic [ref=e94]: You saved
+              - generic [ref=e95]: "-₹2,600.00"
+            - generic [ref=e96]:
+              - generic [ref=e97]: Delivery Fee
+              - generic [ref=e98]: FREE
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - generic [ref=e102]: 🎉
+                - generic [ref=e103]: FREE Delivery!
+              - text: Orders ≥ ₹500 qualify for free delivery
+            - separator [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e106]: Total
+              - generic [ref=e107]: ₹13,000.00
+          - button "Proceed to Checkout" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - heading "📋 Delivery Fee Structure" [level=3] [ref=e110]
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: "₹1 - ₹200:"
+                - generic [ref=e114]: 40% of subtotal
+              - generic [ref=e115]:
+                - generic [ref=e116]: "₹201 - ₹400:"
+                - generic [ref=e117]: 20% of subtotal
+              - generic [ref=e118]:
+                - generic [ref=e119]: "₹401 - ₹499:"
+                - generic [ref=e120]: 10% of subtotal
+              - generic [ref=e121]:
+                - generic [ref=e122]: "₹500+:"
+                - generic [ref=e123]: FREE Delivery
+          - generic [ref=e124]: 🌱 Fresh products delivered in 30 minutes
+          - generic [ref=e125]:
+            - generic [ref=e126]: "Debug Info:"
+            - generic [ref=e127]: "Subtotal: ₹13000"
+            - generic [ref=e128]: "Backend Fee: ₹0 | Backend Total: ₹13000"
+            - generic [ref=e129]: "Frontend Fee: ₹0 | Frontend Total: ₹13000"
+            - generic [ref=e130]: "Used Fee: ₹0 | Used Total: ₹13000"
+```
